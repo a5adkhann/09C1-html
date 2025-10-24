@@ -1,0 +1,10 @@
+#section {
+    width: 400px;
+    height: 250px;
+    /* background: linear-gradient(green, brown); */
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: red; */
+    border: 2px solid red;
+    border-radius: 25px;
+}

@@ -1,0 +1,4 @@
+h1 {
+    /* background-color: red; */
+    background: linear-gradient(to bottom, red, blue);
+}
