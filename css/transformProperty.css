@@ -1,0 +1,10 @@
+.box {
+    width: 150px;
+    height: 90px;
+    background-color: red;
+    /* transform: rotate(45deg); */
+    /* transform: scale(1.5); */
+    /* transform: scale(0.7); */
+    transform: skew(45deg);
+}
+    

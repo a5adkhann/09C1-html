@@ -1,0 +1,25 @@
+.child1 {
+    background-color: green;
+    width: 200px;
+    height: 90px;
+    color: white;
+    position: relative;
+    top: 25px;
+    z-index: 0;
+}
+
+.child2 {
+    background-color: red;
+    width: 200px;
+    height: 90px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.child3 {
+    background-color: blue;
+    width: 200px;
+    height: 90px;
+    color: white;
+}

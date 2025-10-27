@@ -1,0 +1,23 @@
+/* .parent {
+    width: 350px;
+    border: 2px solid black;
+}
+
+.parent .banner img {
+    width: 100%;
+} */
+
+/* .parent .text { */
+    /* position: relative; */
+    /* position: absolute;
+    top: 40px; */
+/* } */
+
+
+h2 {
+    /* position: fixed; */
+    /* bottom: 0;
+    right: 2px; */
+    position: sticky;
+    top: 0;
+}
