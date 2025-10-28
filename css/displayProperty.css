@@ -1,0 +1,21 @@
+h1 {
+    display: inline;
+}
+
+h2 {
+    display: inline-block;
+    height: 400px;
+    background-color: green;
+}
+
+i {
+    display: block;
+    width: 100px;
+    height: 200px;
+    background-color: aqua;
+}
+
+img {
+    /* display: none; */
+    visibility: hidden;
+}
