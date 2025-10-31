@@ -1,20 +1,15 @@
 .boxes {
-    background-color: chocolate;
-    width: 900px;
-    height: 450px;
+    background-color: black;
+    width: 800px;
+    height: 400px;
     display: flex;
-    /* justify-content: space-between; */
-    /* justify-content: space-around; */
-    /* justify-content: space-evenly; */
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
     align-items: center;
-
 }
 
-.box {
-    background-color: cadetblue;
-    width: 200px;
-    height: 80px;
-    border: 1px solid black;
+.boxes .box {
+    background-color: aqua;
+    width: 220px;
+    height: 110px;
+    border: 2px solid brown;
 }
