@@ -1,0 +1,10 @@
+.container {
+    width: 400px;
+    height: 120px;
+    border: 1px solid black;
+    background-image: url("../images/product.jpeg");
+    background-position: center;
+    /* background-size: cover; */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
