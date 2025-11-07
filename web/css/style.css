@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(#000, #721111);
+    color: white;
+    padding: 10px;
+}
+
+.navbar .items ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .btn button {
+    padding-inline: 20px;
+    padding-block: 3px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+/* navbar end */
+
+
+/* slider */
+
+.main-carousel {
+    height: 70vh;
+    width: 100%;
+}
+
+.main-carousel .carousel-cell {
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* slidee end */
+
+
+/* about */
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    padding-block: 100px;
+}
+
+.about-container .about-banner img {
+    width: 400px;
+}
+/* about end */
+
+/* product */
+
+#product-heading {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+.cards .card {
+    width: 300px;
+    border: 1px solid lightgray;
+}
+
+
+.cards .card .card-banner img {
+    width: 100%;
+}
+
+
+/* product end */
+
+/* contact */
+
+#contact-heading {
+    text-align: center;
+}
+
+.form-container {
+    width: 400px;
+    justify-self: center;
+    padding-block: 100px;
+}
+
+.form-container form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+}
+
+.form-container form textarea {
+    width: 100%;
+    resize: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+}
+
+.form-container form button {
+    width: 100%;
+    border: none;
+    background: linear-gradient(#000, #721111);
+    color: white;
+    padding-block: 10px;
+}
+
+/* contact end */
+
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    background: #000;
+    color: white;
+    padding: 50px;
+}
+
+/* footer end */
