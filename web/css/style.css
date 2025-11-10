@@ -23,6 +23,11 @@
     gap: 20px;
 }
 
+.navbar .items ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 .navbar .btn button {
     padding-inline: 20px;
     padding-block: 3px;
